@@ -548,7 +548,7 @@ call s:HI(      "VertSplit", s:lblk, s:dblk,     "" )
 call s:HI(        "TabLine", s:dblk, s:dwht,     "" )
 call s:HI(    "TabLineFill",     "", s:dblk,     "" )
 call s:HI(     "TabLineSel", s:dblk, s:dwht,     "" )
-call s:HI(         "Cursor", s:lred, s:bclr,     "" )
+call s:HI(         "Cursor", s:lgrn, s:bclr,     "" )
 call s:HI(     "CursorLine", s:culc,     "", "none" )
 call s:HI(   "CursorLineNr", s:culc, s:dwht, "none" )
 call s:HI(   "CursorColumn", s:culc,     "",     "" )
@@ -625,7 +625,7 @@ call s:HI( "EasyMotionTarget2Second",     "", s:dred, "" )
 " }}}
 
 " Neovim terminal emulator colors {{{
-call s:HI(   "TermCursor",     "", s:lred, "" )
+call s:HI(   "TermCursor",     "", s:lgrn, "" )
 call s:HI( "TermCursorNC", s:lblk,     "", "" )
 if !empty($NVIM_TUI_ENABLE_TRUE_COLOR)
     let g:terminal_color_0=s:dblk
